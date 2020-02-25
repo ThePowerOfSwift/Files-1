@@ -1,0 +1,19 @@
+# call of duty
+
+DOMAIN,vmp.qq.com 
+
+DOMAIN-SUFFIX,proximabeta.com
+
+IP-CIDR,49.51.65.170/32
+
+DOMAIN-SUFFIX,akamaized.net
+
+DOMAIN-SUFFIX,activision.itopsdk.com
+
+DOMAIN-SUFFIX,itop.qq.com 
+
+DOMAIN-SUFFIX,appsflyer.com 
+
+DOMAIN-SUFFIX,activision.com 
+
+

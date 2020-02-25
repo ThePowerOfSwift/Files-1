@@ -108,3 +108,13 @@ DOMAIN-SUFFIX,developer.microsoft.com
 DOMAIN-SUFFIX,windowsazure.com
 
 DOMAIN-SUFFIX,designcode.io
+
+DOMAIN-SUFFIX,office.com
+
+DOMAIN-SUFFIX,windows.net
+
+DOMAIN-SUFFIX,cloudapp.net
+
+DOMAIN-KEYWORD,microsoft.com
+
+DOMAIN-SUFFIX,app.iosninja.io
