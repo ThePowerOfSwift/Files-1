@@ -1,0 +1,27 @@
+AND,((IP-CIDR,0.0.0.0/0), (USER-AGENT,TBClient*))
+
+URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/(c\/(s\/splashSchedule|f\/forum\/getAdInfo)|w+\/\w+\/(sync|newRnSync|newlog|mlog))
+
+URL-REGEX,^http:\/\/[\s\S]*\.baidu\.com/.*ad[xs]\.php
+
+URL-REGEX,^https?://c.tieba.baidu.com/c/s/splashSchedule
+
+URL-REGEX,^https?://cover.baidu.com/cover/page/dspSwitchAds/
+
+USER-AGENT,AVOS*
+
+URL-REGEX,https://www.zhihu.com/api/v4/mcn/
+
+URL-REGEX,https://api.zhihu.com/(ab|adx|drama|fringe|zst|commercial|ad-style-service|market/popover|search/(top|tab|preset)|.*(guide|recommendations|extended|featured-comment-ad))
+
+AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
+
+
+URL-REGEX,https://app.bilibili.com/x/v2/(splash|search/(defaultword|square)),REJECT-TINYGIF
+URL-REGEX,https://api.bilibili.com/x/v2/dm/advert
+
+
+AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,hdslb.com))))
+
+
+DOMAIN-SUFFIX,weibointl.api.weibo.cn
