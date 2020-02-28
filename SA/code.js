@@ -1,5 +1,10 @@
 
-# 启动
+
+
+
+yum install forever 
+
+
 
 
 
