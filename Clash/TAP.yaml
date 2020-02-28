@@ -1,6 +1,12 @@
-# 0.9.0 启动TAP模式
+/*
 
-# 使用的Profile中包含fake-ip设置：
+0.9.0 启动TAP模式
+
+使用的Profile中包含fake-ip设置：
+
+点击General中TAP Device将会安装TAP网卡，此网卡用于接管系统流量，安装完成可在系统网络连接中看到名为cfw-tap的网卡
+
+*/
 
 
 dns:
@@ -19,10 +25,14 @@ experimental:
   
   
   
-  
-#   0.8.0 启动TAP模式
+/*
 
-#   使用的Profile中包含fake-ip设置：
+0.8.0 启动TAP模式
+
+使用的Profile中包含fake-ip设置：
+
+*/
+
 
 dns:
    enable: true
