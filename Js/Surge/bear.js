@@ -1,3 +1,18 @@
+
+
+/*
+
+
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ requires-body=1,max-size=262144,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/verify_receipt.js,script-update-interval=0
+
+
+buy.itunes.apple.com
+
+
+*/
+
+
+
 var obj = JSON.parse($response.body);
 var bundle_id = obj.receipt["bundle_id"];
 if (bundle_id == "net.shinyfrog.bear-iOS") {

@@ -1,7 +1,15 @@
 
-# surge
+/*
 
-// hostname= api.revenuecat.com
+
+surge
+
+
+hostname= api.revenuecat.com
+
+
+*/
+
 
 
 
