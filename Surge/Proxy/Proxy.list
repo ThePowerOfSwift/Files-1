@@ -67,8 +67,6 @@ DOMAIN,sctrack.sc.gg
 
 DOMAIN-SUFFIX,*.icloud.com
 
-DOMAIN-SUFFIX,*.itunes.apple.com
-
 DOMAIN-SUFFIX,y2b.treant.me
 
 DOMAIN-SUFFIX,*.treant.me
@@ -90,8 +88,6 @@ DOMAIN-KEYWORD,infuse
 DOMAIN-SUFFIX,y2byoutu.be
 
 DOMAIN-SUFFIX,*.push.apple.com
-
-DOMAIN-SUFFIX,*.mzstatic.com
 
 DOMAIN-SUFFIX,dribbble.com
 
