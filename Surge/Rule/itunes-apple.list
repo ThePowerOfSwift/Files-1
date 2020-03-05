@@ -1,7 +1,9 @@
 #App Store
 
-DOMAIN,p14-buy.itunes.apple.com
+DOMAIN-KEYWORD,icloud
 
-DOMAIN-SUFFIX,*.sharepoint.com
+DOMAIN-KEYWORD,itunes
 
-DOMAIN,iosapps.itunes.apple.com
+DOMAIN-KEYWORD,apple
+
+DOMAIN-SUFFIX,notion.so
