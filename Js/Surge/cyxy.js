@@ -1,27 +1,18 @@
 /*
 
-# 彩云小译
+彩云小译
 
 QX:
 
 ^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user url script-response-body cyxy.js
 
-
-
 Surge:
 
-http-response ^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user requires-body=1,max-size=0,script-path=
-
-
+http-response ^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/hello1983/Files/master/Js/Surge/cyxy.js
 
 api.interpreter.caiyunai.com
 
-
-
-
-
 */
-
 
 var obj = JSON.parse($response.body);
  obj={
