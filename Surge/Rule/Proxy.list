@@ -93,6 +93,20 @@ DOMAIN-SUFFIX,live.com
 
 URL-REGEX,*microsoft*
 
+DOMAIN-SUFFIX,akamaized.net
+
+DOMAIN,www.lunaranimation.com
+
+DOMAIN-SUFFIX,engadget.com
+
+DOMAIN-SUFFIX,vox-cdn.com
+
+DOMAIN-SUFFIX,codekon.xyz
+
+DOMAIN-SUFFIX,bggenerator.com
+
+DOMAIN-SUFFIX,www.appinn.com
+
 USER-AGENT,*notion*,
 
 DOMAIN-SUFFIX,developer.microsoft.com
