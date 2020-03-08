@@ -1,3 +1,22 @@
+
+/*
+
+#京东成长分签到
+
+QX:
+
+^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/bt\/h5\/m\/queryUserSignFlow url script-request-header jdczfcookie.js
+
+Surge:
+
+cron "0 28 11 * * ?" script-path=https://raw.githubusercontent.com/hello1983/Files/master/Js/Surge/jdczf.js,script-update-interval=0
+
+http-request ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/bt\/h5\/m\/queryUserSignFlow script-path=https://raw.githubusercontent.com/hello1983/Files/master/Js/Surge/jdczfcookie.js,script-update-interval=0
+
+ms.jr.jd.com
+
+*/
+
 const cookieName ='京东成长分'
 const cookieKey = 'chen_cookie_jingdong'
 const chen = init()
