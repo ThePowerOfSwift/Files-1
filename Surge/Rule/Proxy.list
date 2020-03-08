@@ -39,8 +39,6 @@ DOMAIN-SUFFIX,mixkit.co
 
 DOMAIN-SUFFIX,gravatar.com
 
-DOMAIN-SUFFIX,*.sharepoint.com
-
 DOMAIN-SUFFIX,live.com
 
 DOMAIN-SUFFIX,*.mzstatic.com
@@ -67,8 +65,6 @@ DOMAIN,sctrack.sc.gg
 
 DOMAIN-SUFFIX,*.icloud.com
 
-DOMAIN-SUFFIX,*.itunes.apple.com
-
 DOMAIN-SUFFIX,y2b.treant.me
 
 DOMAIN-SUFFIX,*.treant.me
@@ -89,10 +85,6 @@ DOMAIN-KEYWORD,infuse
 
 DOMAIN-SUFFIX,y2byoutu.be
 
-DOMAIN-SUFFIX,*.push.apple.com
-
-DOMAIN-SUFFIX,*.mzstatic.com
-
 DOMAIN-SUFFIX,dribbble.com
 
 DOMAIN-SUFFIX,pin-river.data.ea.com
@@ -100,6 +92,20 @@ DOMAIN-SUFFIX,pin-river.data.ea.com
 DOMAIN-SUFFIX,live.com
 
 URL-REGEX,*microsoft*
+
+DOMAIN-SUFFIX,akamaized.net
+
+DOMAIN,www.lunaranimation.com
+
+DOMAIN-SUFFIX,engadget.com
+
+DOMAIN-SUFFIX,vox-cdn.com
+
+DOMAIN-SUFFIX,codekon.xyz
+
+DOMAIN-SUFFIX,bggenerator.com
+
+DOMAIN-SUFFIX,www.appinn.com
 
 USER-AGENT,*notion*,
 
@@ -118,3 +124,15 @@ DOMAIN-SUFFIX,cloudapp.net
 DOMAIN-KEYWORD,microsoft.com
 
 DOMAIN-SUFFIX,app.iosninja.io
+
+DOMAIN-KEYWORD,onedrive
+
+DOMAIN-KEYWORD,microsoft
+
+DOMAIN-KEYWORD,office
+
+DOMAIN-SUFFIX,www.playpcesor.com
+
+DOMAIN-SUFFIX,airlist.app
+
+DOMAIN-SUFFIX,merlinblog.xyz

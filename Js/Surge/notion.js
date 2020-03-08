@@ -1,4 +1,4 @@
-const MY_DOMAIN = "note.surge.pp.ua"
+const MY_DOMAIN = "n.surge.pp.ua"
 const START_PAGE = "https://www.notion.so/mick2011/35334f69658544c395497f47e6e5e067"
 addEventListener('fetch', event => {
   event.respondWith(fetchAndApply(event.request))
