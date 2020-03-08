@@ -1,0 +1,122 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+experimental:
+  ignore-resolve-fail: true
+cfw-bypass:
+- qq.com
+- music.163.com
+- '*.music.126.net'
+- localhost
+- 127.*
+- 10.*
+- 172.16.*
+- 172.17.*
+- 172.18.*
+- 172.19.*
+- 172.20.*
+- 172.21.*
+- 172.22.*
+- 172.23.*
+- 172.24.*
+- 172.25.*
+- 172.26.*
+- 172.27.*
+- 172.28.*
+- 172.29.*
+- 172.30.*
+- 172.31.*
+- 192.168.*
+- <local>
+cfw-latency-timeout: 5000
+
+proxy-provider:
+    
+    Pro:
+        type: http
+        path: ./Pro.yaml
+        url: https://dler.cloud/subscribe/token?protocols=ss&list=clash&isp=pro
+        interval: 3600
+        health-check:
+            enable: true
+            url: http://www.gstatic.com/generate_204
+            interval: 300
+    
+    IPLC:
+        type: http
+        path: ./IPLC.yaml
+        url: https://dler.cloud/subscribe/token?protocols=ss&list=clash&isp=iplc&area=hk
+        interval: 3600
+        health-check:
+            enable: true
+            url: http://www.gstatic.com/generate_204
+            interval: 300
+    
+    BGP:
+        type: http
+        path: ./BGP.yaml
+        url: https://dler.cloud/subscribe/token?protocols=ss&list=clash&isp=bgp&area=hk
+        interval: 3600
+        health-check:
+            enable: true
+            url: http://www.gstatic.com/generate_204
+            interval: 300
+
+Proxy Group:
+
+- name: Pro-Auto
+  type: url-test
+  use:
+      - Pro
+
+- name: IPLC-Auto
+  type: url-test
+  use:
+      - IPLC
+
+- name: BGP-Auto
+  type: url-test
+  use:
+      - BGP
+
+- name: PROXY
+  type: select
+  proxies:
+      - Pro-Auto
+      - IPLC-Auto
+      - BGP-Auto
+
+- name: Final
+  type: select
+  proxies:
+  - PROXY
+  - DIRECT
+
+- name: Apple
+  type: select
+  proxies:
+  - DIRECT
+  - PROXY
+
+- name: GlobalMedia
+  type: select
+  proxies:
+      - Pro-Auto
+      - IPLC-Auto
+      - BGP-Auto
+
+- name: HKMTMedia
+  type: select
+  proxies:
+      - Pro-Auto
+      - IPLC-Auto
+      - BGP-Auto
+
+- name: Hijacking
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
