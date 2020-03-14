@@ -22,3 +22,7 @@ URL-REGEX,https://api.bilibili.com/x/v2/dm/advert
 AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,hdslb.com))))
 
 DOMAIN-SUFFIX,weibointl.api.weibo.cn
+
+DOMAIN-SUFFIX,ad.21cn.com
+
+DOMAIN-SUFFIX,*.yangkeduo.com
