@@ -1,0 +1,15 @@
+/*
+
+0.8.0 启动TAP模式
+
+使用的Profile中包含fake-ip设置：
+
+*/
+
+
+dns:
+   enable: true
+   enhanced-mode: fake-ip
+   listen: 127.0.0.1:53
+   nameserver:
+      - 223.5.5.5
