@@ -9,6 +9,20 @@ DOMAIN-SUFFIX,amazon.com
 
 DOMAIN-KEYWORD,*dropbox*
 
+DOMAIN-SUFFIX,v2fly.org
+
+DOMAIN-KEYWORD,ifttt
+
+DOMAIN-SUFFIX,azurewebsites.net
+
+DOMAIN-KEYWORD,docker
+
+DOMAIN-SUFFIX,app-measurement.com
+
+DOMAIN-SUFFIX,nintendo.com
+
+DOMAIN-SUFFIX,euserv.com
+
 DOMAIN-SUFFIX,foodiesfeed.com
 
 DOMAIN-SUFFIX,pixabay.com
