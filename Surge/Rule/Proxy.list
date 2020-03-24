@@ -17,8 +17,6 @@ DOMAIN-SUFFIX,azurewebsites.net
 
 DOMAIN-KEYWORD,docker
 
-DOMAIN-SUFFIX,app-measurement.com
-
 DOMAIN-SUFFIX,nintendo.com
 
 DOMAIN-SUFFIX,euserv.com
@@ -88,8 +86,6 @@ DOMAIN-SUFFIX,uistore.design
 DOMAIN-SUFFIX,microsoft.com
 
 DOMAIN-SUFFIX,outlook.com
-
-DOMAIN-SUFFIX,*.itunes.apple.com
 
 DOMAIN,upos-hz-mirrorakam.akamaized.net
 
